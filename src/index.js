@@ -1,4 +1,5 @@
-import 'babel-polyfill';
+// Until babel supports excluding external polyfills
+// import 'babel-polyfill';
 
 // IME event listener DOM helpers
 export { default as bind } from './bind';
